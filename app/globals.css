@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+:root {
+  color-scheme: light;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::selection {
+  color: #172b4d;
+  background: #ffb84d;
+}
+:focus-visible {
+  outline: 2px solid #087fc3;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes reveal {
+  from { clip-path: inset(0 0 0 100%); opacity: .4; }
+  to { clip-path: inset(0); opacity: 1; }
+}
+.rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+.reveal-img { animation: reveal 1s cubic-bezier(.2,.7,.2,1) .25s both; }
+.d1 { animation-delay: .1s; } .d2 { animation-delay: .2s; } .d3 { animation-delay: .32s; } .d4 { animation-delay: .44s; }
+.rv { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+.rv.rv-in { opacity: 1; transform: none; }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.rv .line-grow { transform: scaleX(0); transform-origin: left; }
+.rv.rv-in .line-grow { animation: grow 1s .3s ease forwards; }
+details.faq > summary { list-style: none; }
+details.faq > summary::-webkit-details-marker { display: none; }
+details.faq[open] .faq-icon { transform: rotate(45deg); }
+details.faq[open] .faq-body { animation: rise .35s ease both; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; } .rv .line-grow { transform: none; } }
