@@ -75,12 +75,15 @@ export default function HomePage() {
             <p className="rise text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
               FINANCING THE FUTURE OF MOBILITY
             </p>
-            <h1 className="rise d1 mt-4 max-w-[680px] text-[clamp(2.5rem,6.2vw,5rem)] font-semibold leading-[.98] tracking-[-.06em]">
-              Powering India’s
-              <br />
-              <span className="text-[#087fc3]">Green Mobility</span>
-              <br />
-              Revolution
+            <h1
+              lang="hi"
+              className="rise d1 mt-4 max-w-[680px] text-[clamp(2rem,4.2vw,3.5rem)] font-semibold leading-[1.25]"
+            >
+              अब ई-रिक्शा व ई-2W पर{' '}
+              <span className="text-[#087fc3]">लोन उपलब्ध।</span>
+              <span className="mt-2 block text-[0.62em] leading-[1.4] text-[#172b4d]">
+                आसान शर्तों पर हमारे साथ जुड़ें।
+              </span>
             </h1>
             <p className="rise d2 mt-5 max-w-xl text-[15px] leading-7 text-[#65738b] sm:text-base">
               Smart, accessible financing solutions for electric vehicles, batteries, and commercial
@@ -107,17 +110,26 @@ export default function HomePage() {
               Built around technology, trusted relationships, and sustainable transportation.
             </p>
           </div>
-          <div className="reveal-img relative h-[290px] sm:h-[420px] lg:h-[480px]">
+          <div className="reveal-img relative h-[340px] sm:h-[400px] lg:h-[440px]">
             <div className="absolute inset-y-3 left-3 right-0 rounded-md bg-[#1f3b70] sm:left-6" />
             <div className="absolute -bottom-2 -left-2 h-16 w-16 border-b-[8px] border-l-[8px] border-[#ffb84d] sm:h-20 sm:w-20" />
-            <div className="absolute inset-y-0 left-0 right-3 overflow-hidden rounded-md sm:right-6">
+            <div className="absolute inset-x-0 top-0 bottom-[76px] overflow-hidden rounded-md sm:bottom-[88px]">
               <Image
-                src="/images/company-singham.jpg"
-                alt="Blue electric three-wheeler e-rickshaw on an open road"
+                src="/images/hero-e-rickshaw.jpeg"
+                alt="Energy Fintech electric rickshaw"
                 fill
                 priority
-                sizes="(max-width: 1024px) 100vw, 52vw"
-                className="object-cover object-[50%_58%]"
+                sizes="(max-width: 1024px) 100vw, 48vw"
+                className="object-cover object-center"
+              />
+            </div>
+            <div className="absolute bottom-0 right-0 h-40 w-40 overflow-hidden rounded-md border-[5px] border-white bg-white shadow-xl sm:h-48 sm:w-48">
+              <Image
+                src="/images/hero-electric-scooter.jpeg"
+                alt="Blue Energy Fintech electric scooter"
+                fill
+                sizes="(max-width: 640px) 160px, 192px"
+                className="object-contain"
               />
             </div>
           </div>
