@@ -550,6 +550,45 @@ export default function HomePage() {
               </Reveal>
             ))}
           </div>
+          <div className="mt-5 grid gap-5 md:grid-cols-2">
+            <Reveal>
+              <article className="flex h-full gap-4 rounded-md border border-[#e5eaf1] bg-white p-5 sm:p-6">
+                <div
+                  aria-hidden="true"
+                  className="grid h-12 w-12 shrink-0 place-items-center rounded-md bg-[#1f3b70] text-sm font-bold text-white"
+                >
+                  SS
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold tracking-[.16em] text-[#087fc3]">
+                    BUSINESS HEAD
+                  </p>
+                  <h3 className="mt-1 text-lg font-semibold tracking-tight">Sandeep Sharma</h3>
+                  <ul className="mt-3 space-y-2 text-[13px] leading-5 text-[#65738b]">
+                    <li>More than 15 years of vehicle-funding experience in the banking sector</li>
+                    <li>Extensive experience in collections</li>
+                    <li>Team-handling experience</li>
+                  </ul>
+                </div>
+              </article>
+            </Reveal>
+            <Reveal delay={100}>
+              <article className="flex h-full gap-4 rounded-md border border-[#e5eaf1] bg-white p-5 sm:p-6">
+                <div
+                  aria-hidden="true"
+                  className="grid h-12 w-12 shrink-0 place-items-center rounded-md bg-[#ffb84d] text-sm font-bold text-[#1f3b70]"
+                >
+                  MG
+                </div>
+                <div>
+                  <p className="text-[10px] font-bold tracking-[.16em] text-[#087fc3]">
+                    CHIEF FINANCE OFFICER · CFO
+                  </p>
+                  <h3 className="mt-1 text-lg font-semibold tracking-tight">Mayank Gupta</h3>
+                </div>
+              </article>
+            </Reveal>
+          </div>
         </Container>
       </section>
 
