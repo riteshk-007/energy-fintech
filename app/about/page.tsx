@@ -280,7 +280,7 @@ export default function AboutPage() {
               LEADERSHIP · THE ORGANIZATION
             </p>
             <h2 className="mt-3 text-[clamp(1.8rem,3.6vw,2.8rem)] font-semibold leading-[1.08] tracking-[-.045em]">
-              Leadership built on industry experience
+              Leadership and team built on industry experience
             </h2>
           </Reveal>
 
@@ -465,6 +465,136 @@ export default function AboutPage() {
               </article>
             </Reveal>
           </div>
+
+          {/* Sandeep Sharma */}
+          <Reveal className="mt-10 grid gap-6 border-t border-[#dfe5ed] pt-8 md:grid-cols-[.55fr_1.45fr] md:gap-12">
+            <div className="md:sticky md:top-24 md:self-start">
+              <div className="relative mx-auto aspect-[3/4] w-full max-w-[300px] overflow-hidden rounded-md border-b-4 border-[#087fc3] md:mx-0">
+                <Image
+                  src="/images/leadership-sandeep-sharma.jpg"
+                  alt="Portrait of Mr. Sandeep Sharma"
+                  fill
+                  sizes="(max-width: 768px) 300px, 28vw"
+                  className="object-cover object-top"
+                />
+              </div>
+            </div>
+            <div>
+              <p className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
+                3W &amp; VEHICLE FINANCE EXPERIENCE
+              </p>
+              <h3 className="mt-2 text-[clamp(1.8rem,3.6vw,2.8rem)] font-semibold leading-[1.05] tracking-[-.045em]">
+                Mr. Sandeep Sharma
+              </h3>
+              <span className="mt-4 block h-0.5 w-12 bg-[#ffb84d]" />
+              <p className="mt-4 max-w-2xl text-[15px] leading-7 text-[#65738b]">
+                Mr. Sandeep Sharma has extensive experience in the three-wheeler (3W) and vehicle
+                finance industry. He has worked in leadership roles across UP West and Delhi NCR,
+                and also has prior experience with IndusInd Bank in vehicle financing and asset
+                management.
+              </p>
+              <ul className="mt-5 grid max-w-2xl border-t border-[#e5eaf1] sm:grid-cols-2 sm:gap-x-6">
+                {[
+                  'Three-wheeler (3W) finance industry',
+                  'Vehicle financing',
+                  'Asset management',
+                  'Leadership roles across UP West and Delhi NCR',
+                ].map((x) => (
+                  <li key={x} className="border-b border-[#e5eaf1] py-2.5 text-[13px] font-medium">
+                    {x}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+
+          {/* Mayank Gupta */}
+          <Reveal className="mt-10 grid gap-6 border-t border-[#dfe5ed] pt-8 md:grid-cols-[1.45fr_.55fr] md:gap-12">
+            <div className="order-2 md:order-1">
+              <p className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
+                FINANCE &amp; ACCOUNTS HEAD
+              </p>
+              <h3 className="mt-2 text-[clamp(1.8rem,3.6vw,2.8rem)] font-semibold leading-[1.05] tracking-[-.045em]">
+                Mr. Mayank Gupta
+              </h3>
+              <span className="mt-4 block h-0.5 w-12 bg-[#ffb84d]" />
+              <div className="mt-4 max-w-2xl space-y-3 text-[15px] leading-7 text-[#65738b]">
+                <p>
+                  Mayank Gupta is an experienced finance and accounts professional with 10 years of
+                  experience in accounting, finance management and financial operations.
+                </p>
+                <p>
+                  As Finance &amp; Accounts Head at Energy Fintech Services LLP, he is responsible
+                  for overseeing financial and accounting operations, maintaining financial
+                  discipline, managing accounts, and supporting the company’s financial planning
+                  and business operations.
+                </p>
+                <p>
+                  He holds a postgraduate qualification in M.Com and is currently pursuing LL.B.,
+                  strengthening his knowledge of financial regulations, legal compliance and
+                  corporate governance.
+                </p>
+              </div>
+
+              <div className="mt-7 grid max-w-2xl gap-6 sm:grid-cols-2">
+                <div>
+                  <h4 className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
+                    EDUCATIONAL QUALIFICATIONS
+                  </h4>
+                  <ul className="mt-2 border-t border-[#e5eaf1] text-[13px] font-medium">
+                    <li className="border-b border-[#e5eaf1] py-2.5">M.Com – Postgraduate</li>
+                    <li className="border-b border-[#e5eaf1] py-2.5">LL.B. – Pursuing</li>
+                  </ul>
+                  <h4 className="mt-5 text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
+                    PROFESSIONAL EXPERIENCE
+                  </h4>
+                  <ul className="mt-2 border-t border-[#e5eaf1] text-[13px] font-medium">
+                    <li className="border-b border-[#e5eaf1] py-2.5">
+                      10 years of experience in Accounts &amp; Finance
+                    </li>
+                    <li className="border-b border-[#e5eaf1] py-2.5">
+                      Finance &amp; Accounts Head, Energy Fintech Services LLP
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
+                    CORE PROFESSIONAL STRENGTHS
+                  </h4>
+                  <ul className="mt-2 border-t border-[#e5eaf1] text-[13px] font-medium">
+                    {[
+                      'Accounting & Financial Management',
+                      'Financial Reporting & Analysis',
+                      'Accounts Management',
+                      'Financial Planning & Budgeting',
+                      'Regulatory & Statutory Compliance',
+                      'Business Finance Operations',
+                    ].map((x) => (
+                      <li key={x} className="border-b border-[#e5eaf1] py-2.5">
+                        {x}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <p className="mt-5 max-w-2xl border-l-2 border-[#ffb84d] pl-4 text-[13px] leading-6 text-[#65738b]">
+                <strong className="text-[#172b4d]">Professional objective:</strong> to contribute
+                towards organizational growth through effective financial management, strong
+                accounting practices, regulatory compliance and strategic financial planning.
+              </p>
+            </div>
+            <div className="order-1 md:order-2 md:sticky md:top-24 md:self-start">
+              <div className="relative mx-auto aspect-[4/5] w-full max-w-[300px] overflow-hidden rounded-md border-b-4 border-[#1f3b70] md:mx-0 md:ml-auto">
+                <Image
+                  src="/images/leadership-mayank-gupta.jpg"
+                  alt="Portrait of Mr. Mayank Gupta, Finance and Accounts Head"
+                  fill
+                  sizes="(max-width: 768px) 300px, 28vw"
+                  className="object-cover object-top"
+                />
+              </div>
+            </div>
+          </Reveal>
         </Container>
       </section>
 

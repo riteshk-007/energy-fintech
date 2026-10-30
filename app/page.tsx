@@ -508,7 +508,7 @@ export default function HomePage() {
               Meet Our Leadership <ArrowRight size={16} />
             </Link>
           </Reveal>
-          <div className="mt-7 grid gap-5 md:grid-cols-[1.15fr_.85fr]">
+          <div className="mt-7 grid gap-5 sm:grid-cols-2">
             {[
               [
                 '/images/leadership-jugal-kishore-sharma.png',
@@ -523,6 +523,20 @@ export default function HomePage() {
                 'Partner',
                 'Associated with business coordination, relationship management and the company’s green mobility financing ecosystem.',
                 'border-[#ffb84d]',
+              ],
+              [
+                '/images/leadership-sandeep-sharma.jpg',
+                'Mr. Sandeep Sharma',
+                '3W & Vehicle Finance Experience',
+                'Extensive experience in the three-wheeler (3W) and vehicle finance industry, with leadership roles across UP West and Delhi NCR.',
+                'border-[#087fc3]',
+              ],
+              [
+                '/images/leadership-mayank-gupta.jpg',
+                'Mr. Mayank Gupta',
+                'Finance & Accounts Head',
+                '10 years of experience in accounting, finance management and financial operations. M.Com; currently pursuing LL.B.',
+                'border-[#1f3b70]',
               ],
             ].map(([photo, name, role, text, tone], i) => (
               <Reveal key={name} delay={i * 100}>
