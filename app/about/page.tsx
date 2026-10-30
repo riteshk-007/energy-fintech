@@ -438,24 +438,25 @@ export default function AboutPage() {
             </div>
             <div>
               <p className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
-                3W &amp; VEHICLE FINANCE EXPERIENCE
+                BUSINESS HEAD
               </p>
               <h3 className="mt-2 text-[clamp(1.8rem,3.6vw,2.8rem)] font-semibold leading-[1.05] tracking-[-.045em]">
                 Mr. Sandeep Sharma
               </h3>
               <span className="mt-4 block h-0.5 w-12 bg-[#ffb84d]" />
               <p className="mt-4 max-w-2xl text-[15px] leading-7 text-[#65738b]">
-                Mr. Sandeep Sharma has extensive experience in the three-wheeler (3W) and vehicle
-                finance industry. He has worked in leadership roles across UP West and Delhi NCR,
-                and also has prior experience with IndusInd Bank in vehicle financing and asset
-                management.
+                Mr. Sandeep Sharma is the Business Head of Energy Fintech Services LLP, with more
+                than 15 years of vehicle-funding experience in the banking sector, extensive
+                experience in collections, and a strong background in team handling. He also has
+                experience in the three-wheeler (3W) and vehicle finance industry, with leadership
+                roles across UP West and Delhi NCR.
               </p>
               <ul className="mt-5 grid max-w-2xl border-t border-[#e5eaf1] sm:grid-cols-2 sm:gap-x-6">
                 {[
-                  'Three-wheeler (3W) finance industry',
-                  'Vehicle financing',
-                  'Asset management',
-                  'Leadership roles across UP West and Delhi NCR',
+                  'More than 15 years of vehicle-funding experience in the banking sector',
+                  'Extensive experience in collections',
+                  'Team-handling experience',
+                  'Three-wheeler (3W) and vehicle finance industry',
                 ].map((x) => (
                   <li key={x} className="border-b border-[#e5eaf1] py-2.5 text-[13px] font-medium">
                     {x}
@@ -469,7 +470,7 @@ export default function AboutPage() {
           <Reveal className="mt-10 grid gap-6 border-t border-[#dfe5ed] pt-8 md:grid-cols-[1.45fr_.55fr] md:gap-12">
             <div className="order-2 md:order-1">
               <p className="text-[11px] font-bold tracking-[.2em] text-[#087fc3]">
-                FINANCE &amp; ACCOUNTS HEAD
+                CHIEF FINANCE OFFICER · CFO
               </p>
               <h3 className="mt-2 text-[clamp(1.8rem,3.6vw,2.8rem)] font-semibold leading-[1.05] tracking-[-.045em]">
                 Mr. Mayank Gupta
@@ -481,7 +482,7 @@ export default function AboutPage() {
                   experience in accounting, finance management and financial operations.
                 </p>
                 <p>
-                  As Finance &amp; Accounts Head at Energy Fintech Services LLP, he is responsible
+                  As Chief Finance Officer (CFO) at Energy Fintech Services LLP, he is responsible
                   for overseeing financial and accounting operations, maintaining financial
                   discipline, managing accounts, and supporting the company’s financial planning
                   and business operations.
@@ -510,7 +511,7 @@ export default function AboutPage() {
                       10 years of experience in Accounts &amp; Finance
                     </li>
                     <li className="border-b border-[#e5eaf1] py-2.5">
-                      Finance &amp; Accounts Head, Energy Fintech Services LLP
+                      Chief Finance Officer (CFO), Energy Fintech Services LLP
                     </li>
                   </ul>
                 </div>
@@ -544,7 +545,7 @@ export default function AboutPage() {
               <div className="relative mx-auto aspect-[4/5] w-full max-w-[300px] overflow-hidden rounded-md border-b-4 border-[#1f3b70] md:mx-0 md:ml-auto">
                 <Image
                   src="/images/leadership-mayank-gupta.jpg"
-                  alt="Portrait of Mr. Mayank Gupta, Finance and Accounts Head"
+                  alt="Portrait of Mr. Mayank Gupta, Chief Finance Officer"
                   fill
                   sizes="(max-width: 768px) 300px, 28vw"
                   className="object-cover object-top"

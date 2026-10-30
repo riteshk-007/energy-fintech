@@ -527,14 +527,14 @@ export default function HomePage() {
               [
                 '/images/leadership-sandeep-sharma.jpg',
                 'Mr. Sandeep Sharma',
-                '3W & Vehicle Finance Experience',
-                'Extensive experience in the three-wheeler (3W) and vehicle finance industry, with leadership roles across UP West and Delhi NCR.',
+                'Business Head',
+                'More than 15 years of vehicle-funding experience in the banking sector, with extensive experience in collections and team handling.',
                 'border-[#087fc3]',
               ],
               [
                 '/images/leadership-mayank-gupta.jpg',
                 'Mr. Mayank Gupta',
-                'Finance & Accounts Head',
+                'Chief Finance Officer · CFO',
                 '10 years of experience in accounting, finance management and financial operations. M.Com; currently pursuing LL.B.',
                 'border-[#1f3b70]',
               ],
